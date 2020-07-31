@@ -32,5 +32,10 @@ Now push an image to docker hub
 
 docker push ankitshivane/sb-with-docker:firstimg
 
+NOTE:
+1) To run your application on toolbox use #docker-machine ip cmd this will give you a ip address and you can then hit to this IP:port 
+because in toolbox its published on toolbox vm private ip address port mapping  refer below link for info
+https://forums.docker.com/t/cant-connect-to-container-on-localhost-with-port-mapping/52716/5
+
 
 
